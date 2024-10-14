@@ -1,0 +1,111 @@
+.Tokenomics_Section_Container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 3rem;
+}
+
+.Tokenomics_Section_Container .section_heading{
+    font-size: 5rem;
+    margin-bottom:0.5rem;
+    font-weight: 770;
+}
+
+
+.Tokenomics_Section_Container .another_heading{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 75%;
+}
+
+.Tokenomics_Section_Container .graph_img{
+    width: 17rem;
+    margin-bottom: 1rem;
+}
+
+.graph_img_rotate{
+    animation-name: rotation;
+    animation-duration: 0.8s;
+    animation-iteration-count:1;
+    animation-timing-function:linear;
+   color: rgb(140, 47, 255);
+}
+
+@keyframes rotation{
+
+0%{
+    rotate: 0deg;
+    transform:perspective(800px)
+    rotateX(0deg)
+    scale(0)
+}
+100%{
+    rotate: 360deg;
+    transform:perspective(800px)
+    rotateX(360deg)
+    scale(1.5)
+    }
+}
+
+.Tokenomics_Section_Container .graph_Details_container{
+    display:flex;
+    gap: 4rem;
+}
+
+.graph_Details_container .color_box_container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.6rem;
+    font-weight: 200;
+}
+
+.Tokenomics_Section_Container .graph_Details_container p{
+    width:15rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+    text-align: start;
+}
+
+
+@media (max-width: 450px){
+    .Tokenomics_Section_Container .section_heading{
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight: 770;
+    }
+
+    .Tokenomics_Section_Container .another_heading{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    .graph_Details_container .color_box_container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        font-size: 0.8rem;
+        font-weight: 100;
+        margin-bottom: 0;
+    }
+    .Tokenomics_Section_Container .graph_Details_container p{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: rgb(153, 153, 153);
+        text-align: start;
+        margin-top: 0;
+    }
+
+    .Tokenomics_Section_Container .graph_Details_container{
+        display:  flex;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .Tokenomics_Section_Container .graph_img{
+        width: 13rem;
+        margin-bottom: 1rem;
+    }
+ 
+}

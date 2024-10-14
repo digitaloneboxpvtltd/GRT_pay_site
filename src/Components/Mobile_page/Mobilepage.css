@@ -1,0 +1,57 @@
+.mobile_page_Container{
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.mobile_page_Container .mobile_page_heading{
+    font-size: 5rem;
+    margin-bottom:0.5rem;
+    font-weight: 770;
+}
+
+.mobile_page_Container h3{
+    background-color: rgb(26, 26, 26);
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 2rem;
+}
+
+.mobile_page_Container .mobile_page_para{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(153, 153, 153);
+}
+
+.mobile_page_buttons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+@media (max-width: 450px){
+    .mobile_page_Container .mobile_page_heading{
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight: 770;
+    }
+
+    .mobile_page_Container h3{
+        background-color: rgb(47, 47, 47);
+        width: fit-content;
+        padding: 0.9rem;
+        border-radius: 2rem;
+    }
+
+    .mobile_page_Container .mobile_page_para{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: rgb(153, 153, 153);
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+
+    }
+}

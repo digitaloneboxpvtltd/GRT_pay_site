@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dc466452.css",
+    "main.js": "/static/js/main.0940db5d.js",
+    "static/js/453.731fa184.chunk.js": "/static/js/453.731fa184.chunk.js",
+    "static/media/SmallMobile.svg": "/static/media/SmallMobile.4faea75e12957337089a.svg",
+    "static/media/green_mobile_background.jpg": "/static/media/green_mobile_background.d3cc67d3ab3462bec392.jpg",
+    "static/media/modern-bg.webp": "/static/media/modern-bg.27a7b3b8273a10ea588f.webp",
+    "index.html": "/index.html",
+    "main.dc466452.css.map": "/static/css/main.dc466452.css.map",
+    "main.0940db5d.js.map": "/static/js/main.0940db5d.js.map",
+    "453.731fa184.chunk.js.map": "/static/js/453.731fa184.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc466452.css",
+    "static/js/main.0940db5d.js"
+  ]
+}

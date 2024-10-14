@@ -1,0 +1,128 @@
+.ReferralBonus_Section_Container{
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+.ReferralBonus_Section_Container .ReferralBonus_Container{
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10rem;
+    position: relative;
+}
+
+
+/* ReferralBonus_Link_info_Container style */
+
+.ReferralBonus_Container .ReferralBonus_Link_info_Container{
+    background-color: rgba(14, 14, 14, 0.549);
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+    gap: 0.1rem;
+    margin-bottom: 0;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+    border:solid rgb(0, 62, 0) 0.01rem;   
+}
+
+.ReferralBonus_Link_info_Container .Connect_wallet_Button_Container{
+    width: 100%;
+    height:fit-content;
+    margin-top:1rem;
+}
+
+ .ReferralBonus_Container .ReferralBonus_Link_info_Container p{
+  font-size: 0.9rem;
+  color: rgb(105, 127, 145);
+  font-weight: 600;
+}
+
+.ReferralBonus_Container .ReferralBonus_Link_info_Container h2{
+    font-size: 1.5rem;
+    width: 18rem;
+}
+
+.ReferralBonus_Link_info_Container .Payment_options_container{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+    width: 100%;
+}
+.ReferralBonus_Link_info_Container .Payment_options_container img{
+    width: 2rem;
+}
+.ReferralBonus_Container .ReferralBonus_info{
+    width: 35%;
+    text-align: start;
+}
+
+
+.ReferralBonus_Container .ReferralBonus_info h1{
+    font-size: 4rem;
+    line-height:1;
+    margin-top: 0;
+}
+
+.ReferralBonus_Container .ReferralBonus_info p{
+    font-size:0.8rem;
+    color: rgb(105, 127, 145);
+    font-weight:500;
+    width: 74.5%;
+    margin-bottom:2rem ;
+}
+
+    
+.ReferralBonus_Container .ReferralBonus_info{
+    width: 30%;
+}
+    
+
+.Referral_link_container{
+
+}
+
+@media (max-width: 450px){
+    .ReferralBonus_Container .ReferralBonus_Link_info_Container{
+        width: 90%;
+        line-height: 1;
+        gap: 0.1rem;
+        padding-bottom: 1rem;
+        border-radius: 1.5rem;
+    }
+    .ReferralBonus_Section_Container .ReferralBonus_Container{
+       flex-direction:column;
+        align-items: center;
+        justify-content: start;
+        gap: 1rem;
+    }
+    .ReferralBonus_Container .ReferralBonus_info{
+        width: 80%;
+        text-align: center;
+    }
+    .ReferralBonus_Container .ReferralBonus_info h1{
+        font-size: 1.5rem;
+        line-height:1;
+    }
+    
+    .ReferralBonus_Container .ReferralBonus_info p{
+        font-size:0.6rem;
+        color: rgb(105, 127, 145);
+        font-weight:500;
+        width: 100%;
+        margin-bottom:2rem ;
+        text-align: center;
+    }
+    .ReferralBonus_Link_info_Container .Payment_options_container{
+        gap:1rem;
+    }
+    .ReferralBonus_Link_info_Container .Payment_options_container img{
+        width: 1.6rem;
+    }
+ }
+
+
+
+ 

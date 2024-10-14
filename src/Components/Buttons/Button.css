@@ -1,0 +1,31 @@
+
+button{
+    background: rgb(0, 52, 11);
+    background: linear-gradient(90deg,rgb(0, 52, 11) 0%, rgb(0, 166, 0) 46%, rgb(60, 255, 70) 96%);
+    color: white;
+    font-weight: 700;
+    border: none;
+    width: fit-content;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 2rem;
+    text-align: center;
+    box-sizing: border-box;
+    &:hover{
+        cursor: pointer;
+        background: transparent;
+        border: solid white 1px;
+    }
+}
+
+
+.trans{
+    background: transparent;
+    border: none;
+    border: solid white 1px;
+    &:hover{
+        background: rgb(0, 52, 11);
+        background: linear-gradient(90deg,rgb(0, 52, 11) 0%, rgb(0, 166, 0) 46%, rgb(60, 255, 70) 96%);
+     }
+}

@@ -1,0 +1,15 @@
+.top_container{
+    width:100vw;
+    height: 100%;
+    position: relative;
+}
+
+.main_background{
+    position: fixed;
+    z-index: 0;
+    object-fit: cover;
+    width: 100vw;
+    height:100%;
+    filter:contrast(1);
+}
+

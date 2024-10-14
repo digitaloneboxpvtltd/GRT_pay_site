@@ -1,0 +1,210 @@
+
+.FAQS_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 5.5rem;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.FAQS_Section h1{
+    font-size: 4rem;
+    margin-bottom:0.5rem;
+    font-weight: 770;
+    margin-bottom: 0;
+}
+
+.FAQS_Section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.Donation_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    justify-content: center;
+    width: 58vw;
+    background-color: rgba(0, 0, 0, 0.633);
+    border:solid rgb(0, 62, 0) 0.01rem;
+     padding: 2rem;
+    border-radius: 2rem;
+    margin-top: 3rem;
+}
+
+.Donation_box p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(201, 201, 201);
+    margin-bottom: 1rem;
+}
+
+
+
+/* sign up form */
+
+.signUp_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    }
+    
+    .signUp_section .signUp_button{
+        color: black;
+        margin: 1rem;
+        width: 5rem;
+        height: 5rem;
+        padding: 0.2rem;
+        margin-top: 2rem;
+        background: rgb(0, 52, 11);
+        background: linear-gradient(90deg,rgb(0, 52, 11) 0%, rgb(0, 166, 0) 46%, rgb(60, 255, 70) 96%);
+        border-radius: 50%;
+        font-size: 1rem;
+        font-weight: 900;
+        display: grid;
+        align-items: center;
+        cursor: pointer;
+        box-shadow: 0 0 50px 10px rgb(0, 119, 12);
+    }
+    
+    
+    .signup_form_container{
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        gap: 2rem;
+        background-color: rgb(0, 0, 0);
+        padding: 2rem;
+        border: solid rgb(0, 72, 0) 0.01rem;
+        border-radius: 1rem;
+        position: absolute;
+        top: 69%;
+        right: 120%;
+        opacity: 0;
+        transform: scale(1.5);
+        transition: all 0.2s linear;
+    }
+
+/* for the form animation */
+
+    .form_anim{   
+        right: 25%;
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .signup_form_container .signup_heading_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        position: relative;
+    }
+    
+    .signup_form_container .signup_heading_container h1{
+        font-size: 2rem;
+        align-items: center;
+        color: rgb(0, 171, 0);
+        font-family:'Times New Roman', Times, serif;
+    }
+
+    .signup_form_container .signup_heading_container i{
+        align-self:flex-start;
+        position: absolute;
+        top: 0;
+        left: 97%;
+        &:hover{
+            color: #cb0000;
+        }
+    }
+    
+    .signup_form_container .form_container form{
+        display: flex;
+        gap: 1rem;
+        box-sizing: border-box;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .form_container form input{
+        width: 25rem;
+        height: 2.5rem;
+        background-color: black;
+        color: rgb(114, 114, 114);
+        border: none;
+        border: 1px solid rgb(48, 48, 48);
+        box-sizing: border-box;
+        padding: 1rem;
+    }
+    
+    .form_container input:focus{
+        border: 3px solid #00cb0e;
+    }
+
+
+
+
+
+
+@media (max-width: 450px){
+    .FAQS_Section{
+        margin-bottom:2rem;
+    }
+    .FAQS_Section h1{
+        font-size: 1.5rem;
+        margin-bottom:0.5rem;
+        font-weight: 770;
+    }
+
+    .FAQS_Section h2{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+        width: 70%;
+    }
+    .Donation_box p{
+        font-size: 0.6rem;
+        font-weight: 700;
+        color: rgb(201, 201, 201);
+    }
+
+
+
+
+    .signup_form_container{
+        gap: 0.5rem;
+        padding: 1rem;
+        top: 72%;
+    }
+
+/* for the form animation */
+
+    .form_anim{   
+        right:9%;
+    }
+    
+    .signup_form_container .signup_heading_container h1{
+        font-size: 1.5rem;
+    }
+
+    .signup_form_container .signup_heading_container i{
+        top: 10%;
+        left: 95%;
+    }
+    
+    .signup_form_container .form_container form{
+        gap: 0.5rem;
+    }
+    
+    .form_container form input{
+        width: 18rem;
+        height: 2rem;
+    }
+}

@@ -1,0 +1,137 @@
+
+.RoadMap_Section{
+    width: 100vw; 
+    padding: 0;
+    position: relative;
+}
+
+.RoadMap_Section .RoadMap_heading{
+    font-size: 5rem;
+    margin-bottom:0.5rem;
+    font-weight: 770;
+}
+
+
+.RoadMap_Section .RoadMap_another_h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.RoadMap_Section .main_content_container{
+    width: 100vw;
+    position:relative;
+    margin-top: 3rem;
+}
+
+.main_content_container .progressBar_Line{
+ height:80%;
+ width: 10px;
+ background-color: rgb(55, 55, 55);
+ position: absolute;
+ top: 1%;
+ left: 30.85%;
+ border-radius: 1rem;
+overflow:visible;
+}
+
+.main_content_container .progressBar_Line .progressBar{
+width: 100%;
+background-color: rgb(255, 255, 255);
+position: relative;
+display: flex;
+justify-content: center;
+}
+
+.fa-circle-dot{
+    position:absolute;
+    top: 100%;
+    color: rgb(0, 255, 42);
+    z-index: 1;
+    box-shadow: 0 0 40px 5px blanchedalmond;
+}
+
+.RoadMap_Section .RoadMap_item_container .items{
+    display: flex;
+    gap: 5rem; 
+}
+
+.RoadMap_Section .RoadMap_item_container ul{
+    list-style:circle;
+}
+
+.RoadMap_Section .RoadMap_item_container ul li{
+margin-bottom: 0.5rem;
+font-size: 0.8rem;
+font-weight: 500;
+color: rgb(153, 153, 153);
+text-align: start;
+}
+
+.RoadMap_Section .main_content_container{
+    display: flex;
+}
+.RoadMap_Section .main_content_container .RoadMap_item_container{
+    margin: auto;
+    z-index: 1;
+}
+
+.item_number{
+    background-color: rgb(121, 122, 123);
+    width: auto;
+    height: fit-content;
+    padding: 7px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+.item_number_colorChange{
+    background-color: rgb(0, 255, 42);
+}
+.RoadMap_item_container .items .item_content{
+    width: 25rem;
+}
+
+
+@media (max-width: 450px) {
+    .RoadMap_Section .RoadMap_heading {
+        font-size: 1.5rem;
+        margin-bottom:0.4rem;
+        font-weight: 770;
+    }
+    .RoadMap_Section .RoadMap_another_h1{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .RoadMap_Section .main_content_container .progressBar_Line {
+      height: 80%;
+      width: 8px;
+      left: 20%;
+    }
+  
+    .RoadMap_Section .RoadMap_item_container .items {
+      gap: 3rem;
+    }
+  
+    .RoadMap_Section .RoadMap_item_container .items .item_number {
+      padding: 5px;
+    }
+    .RoadMap_item_container .items .item_content{
+        width: 15rem;
+    }
+
+    .RoadMap_item_container .items .item_content h2{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .RoadMap_Section .RoadMap_item_container ul li{
+    margin-bottom: 0.2rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: rgb(153, 153, 153);
+    }
+  }

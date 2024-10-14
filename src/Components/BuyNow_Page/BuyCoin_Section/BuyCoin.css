@@ -1,0 +1,462 @@
+.BuyCoin_Section_Container{
+    margin-bottom: 2rem;
+}
+
+.BuyCoin_Section_Container .BuyCoin_Container{
+    display:flex;
+    align-items: start;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info{
+    width: 35%;
+    text-align: start;
+}
+
+.BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info h1{
+    font-size: 4rem;
+    line-height:1;
+    margin-top: 0;
+}
+
+.BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info p{
+    font-size:0.8rem;
+    color: rgb(105, 127, 145);
+    font-weight:500;
+    width: 74.5%;
+    margin-bottom:2rem ;
+}
+
+.BuyCoin_Container .BuyCoin_info .Button_Container{
+    display: flex;
+    gap: 1.2rem;
+}
+
+@media (max-width: 450px){
+    .BuyCoin_Section_Container .BuyCoin_Container{
+       flex-direction: column-reverse;
+        align-items: center;
+        justify-content: start;
+        gap: 2rem;
+    }
+    .BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info{
+        width: 90%;
+        text-align: center;
+    }
+    .BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info h1{
+        font-size: 1.5rem;
+        line-height:1;
+    }
+    
+    .BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_info p{
+        font-size:0.6rem;
+        color: rgb(105, 127, 145);
+        font-weight:500;
+        width: 100%;
+        margin-bottom:2rem ;
+        text-align: center;
+    }
+    
+    .BuyCoin_Container .BuyCoin_info .Button_Container{
+        display: flex;
+        gap: 1.2rem;
+        justify-content: center;
+    }
+ }
+
+/* BuyCoin_Batch_info_Container  style */
+
+.BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_Batch_info_Container{
+    width: 35%;
+    height: fit-content;
+    background-color: rgba(14, 14, 14, 0.549);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border:solid rgb(0, 62, 0) 0.01rem;
+}
+
+.BuyCoin_Container .BuyCoin_Batch_info_Container .head{
+background-color:rgb(36, 36, 36);
+box-sizing: border-box;
+width: 100%;
+margin-top: 0;
+padding-top: 0.7rem;
+padding-bottom: 0.7rem;
+text-align: start;
+padding-left: 0.5rem;
+font-size: 0.8rem;
+font-weight: 700;
+}
+
+.BuyCoin_Batch_info_Container .head span{
+    font-size: 0.7rem;
+    color: rgb(152, 152, 152);
+    font-weight: 600;
+}
+
+
+.BuyCoin_Batch_info_Container .Coin_Buy_Box{
+    box-sizing: border-box;
+    background-color:rgb(36, 36, 36);
+    width: 90%;
+    border-radius: 0.5rem;
+    border:solid rgb(0, 62, 0) 0.01rem;
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total{
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+
+.Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total section{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    line-height: 0.5;
+}
+.Coin_Buy_Box .Remaining_coin_Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total hr{
+    height: 2rem;
+    border:solid  rgb(80, 80, 80) 1px;
+}
+.Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total p{
+    font-size: 0.7rem;
+    color: rgb(152, 152, 152);
+    font-weight: 600;
+}
+.Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total h2{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.Coin_Buy_Box .Remaining_coin_Container .coin_selse_Progress_container{
+    width: 94%;
+    height: 2.4rem;
+    background-color:black;
+    border-radius: 1.3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    padding-left: 0.1rem;
+    box-sizing: border-box;
+}
+
+.Remaining_coin_Container .coin_selse_Progress_container .coin_selse_progress{
+    box-sizing: border-box;
+    width: 95%;
+    height: 2.1rem;
+    background: rgb(0, 52, 11);
+    background: linear-gradient(90deg,rgb(0, 52, 11) 0%, rgb(0, 166, 0) 46%, rgb(60, 255, 70) 96%);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+
+.Coin_Buy_Box .Remaining_coin_Container .other_Remaining_coin_info{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.BuyCoin_Batch_info_Container .Coin_Buy_Box .Buy_coin_Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    background: rgb(0,14,193);
+    background: linear-gradient(90deg, rgba(0,14,193,1) 0%, rgba(0,79,232,1) 43%, rgba(13,168,255,1) 100%);  
+    width:90%;
+    height: 3rem;
+    border-radius:0.5rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: box-shadow 0.1s linear;
+    &:hover{
+        box-shadow: inset 0 0 20px 1px black;
+    }
+}
+
+.Coin_Buy_Box .Buy_coin_Container img{
+    width: 1.5rem;
+    height:1.5rem;
+}
+
+
+/*  .Miner_Buy_Box style  */
+
+.BuyCoin_Batch_info_Container .Miner_Buy_Box{
+    box-sizing: border-box;
+    background-color:rgb(36, 36, 36);
+    width: 90%;
+    border-radius: 0.5rem;
+    border:solid rgb(0, 62, 0) 0.01rem;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+
+.Miner_Buy_Box .sels_Miner_total{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    }
+    
+    .Miner_Buy_Box .sels_Miner_total section{
+        padding-left: 3rem;
+        padding-right: 3rem;
+        line-height: 0.5;
+    }
+    .Miner_Buy_Box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .Miner_Buy_Box .sels_Miner_total hr{
+        height: 2rem;
+        border:solid  rgb(80, 80, 80) 1px;
+    }
+    .Miner_Buy_Box .sels_Miner_total p{
+        font-size: 0.7rem;
+        color: rgb(152, 152, 152);
+        font-weight: 600;
+    }
+    .Miner_Buy_Box .sels_Miner_total h2{
+        font-size: 0.8rem;
+        font-weight: 700;
+    }
+
+    .Miner_Buy_Box .Buy_Miner_Container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        box-sizing: border-box;
+        background: rgb(198,66,0);
+        background: linear-gradient(90deg, rgba(198,66,0,1) 0%, rgba(219,106,0,1) 43%, rgba(255,192,0,1) 100%);    
+        width:90%;
+        height: 3rem;
+        border-radius:0.5rem;
+        font-size: 0.8rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: box-shadow 0.1s linear;
+        &:hover{
+            box-shadow: inset 0 0 20px 1px black;
+        }
+    }
+    
+    .Miner_Buy_Box .Buy_Miner_Container img{
+        width: 1.5rem;
+        height:1.5rem;
+    }
+
+
+
+
+    /* payment option image style */
+
+    .BuyCoin_Batch_info_Container .Payment_options_container{
+        display: flex;
+        justify-content: center;
+        gap: 0.6rem;
+    }
+
+    .BuyCoin_Batch_info_Container .Payment_options_container img{
+     width: 2.5rem;
+    }
+
+
+
+    /* special key input  */
+
+    .BuyCoin_Batch_info_Container .special_key_container{
+     width: 94%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    }
+    .keyInput_button{
+        border-radius: 0;
+        width: fit-content;
+        height: 2rem;
+        background: rgb(0,0,0);
+        background: radial-gradient(circle, rgba(0,0,0,1) 58%, rgba(73,73,73,1) 100%);
+        border-left: solid 1px rgb(94, 94, 94);
+      }
+
+   .special_key_container .input_button_container{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        border: solid rgb(94, 94, 94) 2px;
+      
+    }
+    .special_key_container .input_button_container:focus-within {
+        border-color: rgb(255, 255, 255);
+    }
+
+ .special_key_container .input_button_container input{
+    background-color: rgb(59, 59, 59);
+    border: none;
+    width: 700%;
+    height: 2rem;
+    color: white;
+ }
+ .special_key_container .present{
+    display: none;
+ }
+
+ .special_key_container .keyPresentText{
+    font-size: 0.9rem;
+        color: rgb(152, 152, 152);
+        font-weight: 600;
+        margin-bottom: 0;
+        cursor: pointer;
+        &:hover{
+            color: rgb(255, 255, 255);
+    }
+ }
+
+
+ @media (max-width: 450px){
+    .BuyCoin_Section_Container .BuyCoin_Container .BuyCoin_Batch_info_Container{
+        width: 92%;
+    }
+
+    .BuyCoin_Container .BuyCoin_Batch_info_Container .head{
+        font-size: 0.7rem;
+        font-weight: 700;
+        }
+        
+        .BuyCoin_Batch_info_Container .head span{
+            font-size: 0.6rem;
+        }
+        
+        .Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total section{
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        .Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total p{
+            font-size: 0.6rem;
+        }
+        .Coin_Buy_Box .Remaining_coin_Container .sels_Coins_total h2{
+            font-size: 0.7rem;
+        }
+
+        .BuyCoin_Batch_info_Container .Coin_Buy_Box{
+            width: 94%;
+        }
+        
+        .Coin_Buy_Box .Remaining_coin_Container .coin_selse_Progress_container{
+            width: 97%;
+        }
+        .Remaining_coin_Container .coin_selse_Progress_container .coin_selse_progress{
+            font-size: 0.7rem;
+        }
+        
+        
+        .Coin_Buy_Box .Remaining_coin_Container .other_Remaining_coin_info{
+            font-size: 0.6rem;
+            font-weight: 700;
+            padding: 0;
+        }
+        
+        .BuyCoin_Batch_info_Container .Coin_Buy_Box .Buy_coin_Container{
+            width:70%;
+            height: 2.5rem;
+            border-radius:0.5rem;
+            font-size: 0.7rem;
+        }
+        
+        .Coin_Buy_Box .Buy_coin_Container img{
+            width: 1.2rem;
+            height:1.2rem;
+        }
+        
+        
+        /*  .Miner_Buy_Box style  */
+        
+        .BuyCoin_Batch_info_Container .Miner_Buy_Box{
+            width: 94%;
+        }
+        
+            
+            .Miner_Buy_Box .sels_Miner_total section{
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            .Miner_Buy_Box .sels_Miner_total p{
+                font-size: 0.6rem;
+            }
+            .Miner_Buy_Box .sels_Miner_total h2{
+                font-size: 0.7rem;
+            }
+        
+            .Miner_Buy_Box .Buy_Miner_Container{
+                width:70%;
+                height: 2.5rem;
+                font-size: 0.7rem;
+            }
+            
+            .Miner_Buy_Box .Buy_Miner_Container img{
+                width: 1.5rem;
+                height:1.5rem;
+            }
+        
+        
+        
+        
+            /* payment option image style */
+        
+            .BuyCoin_Batch_info_Container .Payment_options_container{
+                gap: 0.6rem;
+            }
+        
+            .BuyCoin_Batch_info_Container .Payment_options_container img{
+             width: 2.3rem;
+            }
+    
+        
+            /* special key input  */
+        
+         .special_key_container .keyPresentText{
+            font-size: 0.8rem;
+                color: rgb(152, 152, 152);
+                font-weight: 700;
+                margin-bottom: 0;
+         }
+        
+ }

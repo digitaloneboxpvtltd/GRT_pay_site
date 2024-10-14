@@ -1,0 +1,105 @@
+
+.Press_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+    .Press_Section .Press_Section_heading{
+        font-size: 5rem;
+        margin-bottom:0.5rem;
+        font-weight: 770;
+    }
+    
+    .Press_Section .press_info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .Press_Section .press_info h2{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 0;
+    }
+    
+    .Press_Section .press_info .press_images img{
+        width:2.5rem;
+        height: auto;
+        margin: 0.1rem;
+    }
+    
+    .Press_Section .news_box_slider_cntainer{
+    width: 100vw;
+    height: 10rem;
+    padding: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    overflow: hidden;
+    border: none;
+    z-index: 1;
+    }
+    
+    .news_box_slider_cntainer .news_box_slide_box{
+        display: flex;
+        gap: 2rem;
+        background: transparent;
+        border: none;
+        position:absolute;
+    
+    animation-name: newsBox_anim;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    
+    @keyframes newsBox_anim {
+        0%{
+       left: 1rem;
+        }
+        100%{
+          left:-208rem;
+        }
+    }
+    
+    
+    
+    @media (max-width: 450px){
+        .Press_Section .news_box_slider_cntainer{
+            width:70vw;
+            height:8rem;
+            }
+        .Press_Section .Press_Section_heading{
+            font-size: 1.5rem;
+            margin-bottom:0.5rem;
+            font-weight: 770;
+        }
+    
+        .Press_Section .press_info h2{
+            font-size: 0.9rem;
+            text-align: center;
+            font-weight: 500;
+            width: 70%;
+        }
+        .Press_Section .press_info .press_images img{
+            width:2rem;
+        }
+    
+        @keyframes newsBox_anim {
+            0%{
+           left: 1rem;
+            }
+            100%{
+              left:-235rem;
+            }
+        }
+
+
+        .Press_Section .news_box_slider_cntainer{
+            margin-bottom: 0rem;
+            position: relative;
+        }
+    }

@@ -1,0 +1,262 @@
+.ShareSecion_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    height:fit-content;
+    position: relative;
+    height: fit-content;
+}
+
+.shareMobileImg{
+width:100%
+}
+
+.ShareBox1{
+position: absolute;
+width: 7.1rem;
+top: 66.8%;
+left: 23%;
+transform: translate(-50%,-50%);
+animation-name: ShareBox1_anim;
+animation-duration: 2.5s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+}
+.ShareBox2{
+    position: absolute;
+    width: 7.1rem;
+    top: 66.8%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    animation-name: ShareBox2_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.ShareCircle{
+    position: absolute;
+    width: 11rem;
+    top: 66.8%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    animation-name:ShareCircle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ShareCircle_anim {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes ShareBox1_anim {
+    0%{
+        left: 23%;
+        opacity: 1;
+    }
+    100%{
+        left: 0%;
+        opacity: 0;
+    }
+}
+
+@keyframes ShareBox2_anim {
+    0%{
+        left: 30%;
+        opacity: 1;
+    }
+    100%{
+        left: 15%;
+        opacity: 0;
+    }
+}
+
+
+
+.tooDarkShareTrangle{
+    position: absolute;
+    width: 4rem;
+    top: 66.8%;
+    left: 51%;
+    z-index: 2;
+    transform: translate(-50%,-50%);
+    animation-name:tooDarkShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes tooDarkShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 54%;
+        opacity: 0;
+    }
+}
+.DarkShareTrangle{
+    position: absolute;
+    width: 4rem;
+    top: 66.8%;
+    left: 51%;
+    z-index:1;
+    transform: translate(-50%,-50%);
+    animation-name:DarkShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes DarkShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 60%;
+        opacity: 0;
+    }
+}
+
+.lightShareTrangle{
+    position: absolute;
+    width: 4rem;
+    top: 66.8%;
+    left: 51%;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    animation-name:lightShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes lightShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 64%;
+        opacity: 0;
+    }
+}
+
+
+.tooLightShareTrangle{
+    position: absolute;
+    width: 3.5rem;
+    top: 66.8%;
+    left: 51%;
+    z-index: 0;
+    transform: translate(-50%,-50%);
+    animation-name:tooLightShareTrangle_anim;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes tooLightShareTrangle_anim {
+    0%{
+        left: 51%;
+        opacity: 1;
+    }
+    100%{
+        left: 68%;
+        opacity: 0;
+    }
+}
+
+@media (max-width:450px) {
+    .trangle{
+        width: 1.7rem;
+        top: 67%;
+    }
+}
+
+
+
+.ShareSecion_container .ShareSection_heading{
+    font-size: 5rem;
+    margin-bottom:0.4rem;
+    font-weight: 770;
+}
+
+.ShareSecion_container .another_h1{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.ShareSecion_container .shareOption_Container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+}
+.ShareSecion_container .shareOption_Container img{
+    width:40px;
+    height: auto;
+}
+
+@media (max-width: 450px){
+
+    .shareMobileImg{
+    width: 100vw;
+    }
+    .ShareSecion_container .shareOption_Container img{
+        width:20px;
+        height: auto;
+    }
+
+    .ShareSecion_container .ShareSection_heading{
+        font-size: 1.5rem;
+        margin-bottom:0.4rem;
+        font-weight: 770;
+    }
+    .ShareSecion_container .another_h1{
+        font-size: 0.9rem;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .ShareBox1{
+        
+        position: absolute;
+    top: 67%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    width: 3.4rem;
+        }
+
+        .ShareBox2{
+        
+            position: absolute;
+        top: 67%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        width: 3.4rem;
+            }
+
+            .ShareCircle{
+                width: 4rem;
+                top: 67%;
+                left: 30%;
+            }
+    }
+
+
+
+    
